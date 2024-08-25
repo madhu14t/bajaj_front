@@ -38,7 +38,7 @@ function App() {
         }
 
         try {
-            const response = await axios.post('https://bajaj-0jzl.onrender.com/bfhl', JSON.parse(inputData));
+            const response = await axios.post('https://bajaj-back.onrender.com/bfhl', JSON.parse(inputData));
             setResponseData(response.data);
             setError('');
         } catch (error) {
